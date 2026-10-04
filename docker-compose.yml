@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  raksha-backend:
+    build: .
+    container_name: raksha_safety_platform
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - DATABASE_URL=sqlite:///data/raksha.db
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    restart: unless-stopped

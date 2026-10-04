@@ -1,0 +1,68 @@
+{
+  "benchmarks": {
+    "TF-IDF + LogisticRegression": {
+      "precision": 1.0,
+      "recall": 0.711340206185567,
+      "f1": 0.8313253012048193,
+      "roc_auc": 0.9934976929753766,
+      "pr_auc": 0.9713246855720062,
+      "brier": 0.029251795014546434,
+      "ece": 0.07457992538645668,
+      "latency_ms_per_sample": 0.0,
+      "confusion_matrix": [
+        [
+          677,
+          0
+        ],
+        [
+          28,
+          69
+        ]
+      ],
+      "fit_time_sec": 0.0157773494720459
+    },
+    "TF-IDF + RandomForest": {
+      "precision": 0.9875,
+      "recall": 0.8144329896907216,
+      "f1": 0.8926553672316384,
+      "roc_auc": 0.9885943139076276,
+      "pr_auc": 0.9744709407359032,
+      "brier": 0.02142911917158941,
+      "ece": 0.04490324432538294,
+      "latency_ms_per_sample": 0.032390734946080885,
+      "confusion_matrix": [
+        [
+          676,
+          1
+        ],
+        [
+          18,
+          79
+        ]
+      ],
+      "fit_time_sec": 0.9172446727752686
+    }
+  },
+  "final_test_metrics": {
+    "model_name": "Calibrated TF-IDF + RandomForest",
+    "test_precision": 0.978021978021978,
+    "test_recall": 0.9270833333333334,
+    "test_f1": 0.9518716577540107,
+    "test_roc_auc": 0.9990628072763028,
+    "test_brier": 0.00835504467579235,
+    "test_ece": 0.008364263483716852,
+    "test_latency_ms": 0.028790737615383255,
+    "test_confusion_matrix": [
+      [
+        676,
+        2
+      ],
+      [
+        7,
+        89
+      ]
+    ],
+    "indian_scam_f1": 1.0,
+    "indian_scam_accuracy": 1.0
+  }
+}

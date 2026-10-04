@@ -1,0 +1,25 @@
+{
+  "verified_phishing_urls": [
+    "http://sebi-pro-trader.top/app.apk",
+    "http://kyc-sebi-update.xyz",
+    "http://sbi-securities-login.club",
+    "https://sebi-trade-group.app",
+    "http://guaranteed-return-invest.net",
+    "http://zerodha-free-bonus.tech"
+  ],
+  "known_scam_phones": [
+    "+919876543210",
+    "+919812345678",
+    "9876543210"
+  ],
+  "known_scam_telegram": [
+    "sebi_guaranteed_profit",
+    "sebi_official_advisor",
+    "vip_stock_tips_india"
+  ],
+  "feed_metadata": {
+    "source": "PhishTank & I4C Cybercrime Intelligence Sample Sync",
+    "updated_at": "2026-10-03T12:00:00Z",
+    "status": "LIVE_FEED_SYNCED"
+  }
+}
